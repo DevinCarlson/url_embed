@@ -21,5 +21,4 @@ drupal_ti_ensure_module_linked
 
 # Update composer
 cd "$DRUPAL_TI_DRUPAL_DIR"
-composer drupal-rebuild
-composer install --prefer-source
+composer drupal-update
